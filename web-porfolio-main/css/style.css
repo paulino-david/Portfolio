@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Merriweather", serif;
 }
-header{
+
+header {
     background-color: #035b6a;
     padding: 3rem;
     display: flex;
@@ -13,104 +14,134 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    nav{
+
+    nav {
         display: flex;
         justify-content: center;
         gap: 2rem;
-        a{
+
+        a {
             color: #e6f8fb;
             font-size: 1.1rem;
             text-decoration: none;
             transition: .3s;
-            &:hover{
+
+            &:hover {
                 color: #06b6d4;
             }
+
+        }
+
+        .icono {
+            display: none !important;
+            background-color: white;
+            padding: .5rem;
+            border-radius: 2rem;
+            color: rgb(59, 59, 59);
         }
     }
 }
-main{
+
+main {
     padding: 10rem 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
-                position: relative;
-            z-index: -1;
-    .contenido{
-        img{
+    position: relative;
+    z-index: -1;
+
+    .contenido {
+        img {
             width: 80%;
         }
+
         width: 50%;
-        h1{
+
+        h1 {
             font-size: 50px;
         }
-        p{
+
+        p {
             font-size: 1.5rem;
             margin: 1rem 0;
             font-weight: 300;
             line-height: 2.4rem;
             width: 80%;
         }
-        .redes{
+
+        .redes {
             display: flex;
             gap: 1.5rem;
-            img{
+
+            img {
                 width: 5%;
                 cursor: pointer;
             }
         }
     }
-    #portada{
+
+    #portada {
         display: flex;
         justify-content: end;
     }
 }
-#estudios{
-    .contenido{
+
+#estudios {
+    .contenido {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 2rem;
         width: 100%;
-        a{
+
+        a {
             text-decoration: none;
             width: 30%;
             position: relative;
             z-index: -1;
             background-color: white;
-            .titulacion{
+
+            .titulacion {
                 width: 100%;
             }
         }
-        .titulacion{
 
-            .imagen{
+        .titulacion {
+
+            .imagen {
                 display: flex;
                 justify-content: center;
                 width: 70%;
                 overflow: hidden;
-                img{
-                    width:100%;
+
+                img {
+                    width: 100%;
                 }
             }
+
             box-shadow: 1px 1px 5px #999999;
             width: 40%;
             padding: 2rem;
             border-radius: 10px;
-                        position: relative;
+            position: relative;
             z-index: -1;
-            h1{
+
+            h1 {
                 color: #035b6a;
                 font-size: 40px;
             }
-            .titulo{
+
+            .titulo {
                 color: #343434;
                 font-weight: 500;
             }
-            .centro{
+
+            .centro {
                 color: #343434;
                 padding: 8px;
             }
-            .fecha{
+
+            .fecha {
 
                 color: #343434;
                 padding: 8px;
@@ -119,7 +150,8 @@ main{
         }
     }
 }
-footer{
+
+footer {
     position: relative;
     bottom: 0;
     padding: 1.5rem;
