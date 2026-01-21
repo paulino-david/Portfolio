@@ -151,6 +151,73 @@ main {
     }
 }
 
+#experiencia {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    section{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        width: 100%;
+    }
+
+    .required {
+
+        .developer {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            box-shadow: 1px 1px 5px #999999;
+            border-radius: .5rem;
+            padding: 2rem;
+            gap: .8rem;
+    .cabecera{
+        display: flex;
+        justify-content: space-between;
+    }
+            .descripcion {
+                display: flex;
+                gap: 1rem;
+                height: 100%;
+                align-items: last baseline;
+
+                
+                p{
+                    color: #232323d5;
+                    
+                }
+            }
+    
+            .datosExtra {
+                font-size: 12px;
+            }
+            img{
+                width: 15rem;
+            }
+    
+        }
+    }
+    .others{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        width: 100%;
+        .otro{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            box-shadow: 1px 1px 5px #999999;
+            border-radius: .5rem;
+            padding: 2rem;
+            gap: .8rem;
+        }
+        
+    }
+}
+
 footer {
     position: relative;
     bottom: 0;
