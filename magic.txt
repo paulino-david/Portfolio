@@ -1,0 +1,1 @@
+Para importar los magic.CSS: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magic/1.1.0/magic.css" integrity="sha512-gJJYolsibf38DtzgROrj3xLIoBCtu+UBD99F5bBCfx6EFi8ktgJvytXKxsCo9P6NkOg0PiIA8QM173+1dNn1Hw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
